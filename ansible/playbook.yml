@@ -1,0 +1,15 @@
+---
+- hosts: vmware
+  roles: 
+    - vm_config  
+
+- hosts: docker
+  roles: 
+    - docker 
+
+- hosts: docker_master
+  roles: 
+    - docker 
+    - kubernetes
+    - virtualbox
+    - minikube

@@ -1,0 +1,5 @@
+---
+# Disable SELinux
+- selinux:
+    state: enabled
+  become: yes
