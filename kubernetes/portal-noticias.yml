@@ -8,3 +8,8 @@ spec:
   containers: 
     - name: portal-container
       image: aluracursos/portal-noticias:1
+      ports:
+        - containerPort: 8080
+      envFrom: 
+        - configMapRef:
+            name: portal-configmap
