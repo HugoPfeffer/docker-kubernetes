@@ -22,21 +22,46 @@
 
 O foco deste projeto é criar um playground pessoal para fixar os conteúdos em Kubernetes e Docker que aprendi ao decorrer deste ano de 2020 através materiais encontrados na internet e nas documentações das respectivas ferramentas.
 
-Neste projeto contem um playbook da ferramenta Ansible, onde configura e instala o Kubernetes, Minikube, VirtualBox e Docker no master node. 
-
-Infelizmente não fui capaz de replicar um "real world exemple" com um master, infra e worker node, pois não tenho recursos suficientes para tal. O setup acima requer mais do que minha máquina pessoal pode suportar. 
-
-</br>
-<!-- <h2> <a href="#">Minikube</a></h2>
-<ul>
-    <li></li>
-</ul> -->
+Neste projeto contem um playbook da ferramenta Ansible, onde configurar e instalar o Kubernetes, Minikube, VirtualBox e Docker no master node. 
+</br></br>
+<b><i>(update: 13/10/2020)</b></i></br>
+Ao avançar nos meus estudos decidi migrar meu ambiente de desenvolvimento para a GCP (Google Cloud Plataform), utilizando os $300 oferecidos pela GCP para estudos. 
 
 </br>
-<!--<h2> <a href="#">Kubernetes</a></h2>
+
+<h1></h1>
+<h2>Ferramentas Usadas</h2>
 <ul>
-    <li></li>
-</ul>-->
+    <li>Minukube</li>
+    <li>Vagrant</li>
+    <li>Google Cloud Plataform</li>
+</ul>
+</br>
+</br>
+
+<h1></h1>
+<h2>Conteúdo fixado</h2>
+<ul>
+    <li>Criar um Cluster</li>
+    <li>Criar Pods</li>
+    <li>Funcionamento dos serviços NodePort, ClusterIP, LoadBalancer e Ingless</li>
+        <ul>
+            <li>Foi implementado no projeto o Ingress Controller e os resourses para separar o tráfego de dados entre as aplicações 'portal-noticias' e 'sistema-noticias'. Sendo essa uma solução mais elegante para um problema comum.</li>
+        </ul>
+    <li>Funcionamento dos volumes persistentes</li>
+        <ul>
+            <li>Foi implementado gcePersistentDisk, porém também adicionei outro volume persistente utilizando hostPath, para praticar.</li>
+        </ul>
+    <!-- <li></li>
+    <li></li> -->
+</ul>
+</br>
+</br>
+
+
+<!-- <h1></h1>
+<h2>Planos futuros</h2> -->
+
 
 
 
