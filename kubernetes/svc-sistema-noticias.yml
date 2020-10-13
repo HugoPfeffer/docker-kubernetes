@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: Service
-metadata:
-  name: svc-sistema-noticias
-spec:
-  type: LoadBalancer
-  ports:
-    - port: 80

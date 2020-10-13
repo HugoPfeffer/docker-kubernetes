@@ -3,7 +3,7 @@ kind: Service
 metadata: 
   name: svc-db-noticias
 spec: 
-  type: CluesterIP
+  type: ClusterIP
   selector: 
     app: db-noticias
   ports:

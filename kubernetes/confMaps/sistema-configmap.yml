@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata: 
   name: sistema-configmap
 data:
-  HOST_DB: svc-portal-noticias:3306
+  HOST_DB: svc-db-noticias:3306
   USER_DB: root
   PASS_DB: senharoot
   DATABASE_DB: empresa
