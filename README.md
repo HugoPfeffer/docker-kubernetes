@@ -25,7 +25,7 @@ O foco deste projeto é criar um playground pessoal para fixar os conteúdos em 
 Neste projeto contem um playbook da ferramenta Ansible, onde configurar e instalar o Kubernetes, Minikube, VirtualBox e Docker no master node. 
 </br></br>
 <b><i>(update: 13/10/2020)</b></i></br>
-Ao avançar nos meus estudos decidi migrar meu ambiente de desenvolvimento para a GCP (Google Cloud Plataform), utilizando os $300 oferecidos pela GCP para estudos. 
+Ao avançar nos meus estudos decidi migrar meu ambiente de desenvolvimento para a GCP (Google Cloud Plataform), utilizando os $300 de crédito oferecidos pela GCP para estudos. 
 
 </br>
 
