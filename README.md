@@ -29,8 +29,6 @@ Ao avançar nos meus estudos decidi migrar meu ambiente de desenvolvimento para 
 
 </br>
 
-<h1></h1>
-</br>
 <h2>Ferramentas Usadas</h2>
 <ul>
     <li>Minukube</li>
@@ -40,8 +38,6 @@ Ao avançar nos meus estudos decidi migrar meu ambiente de desenvolvimento para 
 </br>
 
 
-<h1></h1>
-</br>
 <h2>Conteúdo fixado</h2>
 <ul>
     <li>Criar um Cluster</li>
