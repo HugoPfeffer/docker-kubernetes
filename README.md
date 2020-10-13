@@ -42,12 +42,18 @@ Ao avançar nos meus estudos decidi migrar meu ambiente de desenvolvimento para 
 <ul>
     <li>Criar um Cluster</li>
     <li>Criar Pods</li>
+    <li>Criar ConfigMaps</li>
+    <li>Funcionamento das ReplicaSets</li>
+    <li>Funcionamento dos Deployments</li>
     <li>Funcionamento dos serviços NodePort, ClusterIP, LoadBalancer e Ingless</li>
         <ul>
             <li>Foi implementado no projeto o Ingress Controller e os resourses para separar o tráfego de dados entre as aplicações 'portal-noticias' e 'sistema-noticias'. Sendo essa uma solução mais elegante para um problema comum.</li>
         </ul>
     <li>Funcionamento dos volumes persistentes</li>
         <ul>
+            <li>PersistentVolume</li>
+            <li>PersistentVolumeClaim</li>
+            <li>StorageClass</li>
             <li>Foi implementado gcePersistentDisk, porém também adicionei outro volume persistente utilizando hostPath, para praticar.</li>
         </ul>
     <!-- <li></li>
