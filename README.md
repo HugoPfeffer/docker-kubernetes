@@ -34,6 +34,7 @@ Ao avançar nos meus estudos decidi migrar meu ambiente de desenvolvimento para 
     <li>Minukube</li>
     <li>Vagrant</li>
     <li>Google Cloud Plataform</li>
+    <li>GCP CLI</li>
 </ul>
 </br>
 
@@ -54,10 +55,13 @@ Ao avançar nos meus estudos decidi migrar meu ambiente de desenvolvimento para 
             <li>PersistentVolume</li>
             <li>PersistentVolumeClaim</li>
             <li>StorageClass</li>
+            <li>StatefulSet</li>
             <li>Foi implementado gcePersistentDisk, porém também adicionei outro volume persistente utilizando hostPath, para praticar.</li>
         </ul>
-    <!-- <li></li>
-    <li></li> -->
+    <li>Controlador de versão nativo do K8s, além do uso de annotations</li>
+    <li>Aplicações e funções dos Namespaces</li>
+    <!-- <li></li> -->
+    <!-- <li></li> -->
 </ul>
 </br>
 
