@@ -15,9 +15,8 @@ spec:
           ports:
             - containerPort: 80
           resources:
-            limits:
-              memory: "2Gi"
-              cpu: "500m"
+            requests:
+              cpu: 10m
           envFrom: 
             - configMapRef:
                 name: portal-configmap
