@@ -60,7 +60,9 @@ Ao avançar nos meus estudos decidi migrar meu ambiente de desenvolvimento para 
         </ul>
     <li>Controlador de versão nativo do K8s, além do uso de annotations</li>
     <li>Aplicações e funções dos Namespaces</li>
-    <!-- <li></li> -->
+    <li>Auto Escalador Horizontal e Vertical</li>
+    <li>Liveness Probes</li>
+    <li>Readness Probes</li>
     <!-- <li></li> -->
 </ul>
 </br>
