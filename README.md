@@ -46,7 +46,7 @@ Ao avançar nos meus estudos decidi migrar meu ambiente de desenvolvimento para 
     <li>Criar ConfigMaps</li>
     <li>Funcionamento das ReplicaSets</li>
     <li>Funcionamento dos Deployments</li>
-    <li>Funcionamento dos serviços NodePort, ClusterIP, LoadBalancer e Ingless</li>
+    <li>Funcionamento dos serviços NodePort, ClusterIP, LoadBalancer e Ingress</li>
         <ul>
             <li>Foi implementado no projeto o Ingress Controller e os resourses para separar o tráfego de dados entre as aplicações 'portal-noticias' e 'sistema-noticias'. Sendo essa uma solução mais elegante para um problema comum.</li>
         </ul>
